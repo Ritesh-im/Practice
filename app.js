@@ -1,7 +1,7 @@
 let url = "https://catfact.ninja/fact";
 let url2 = "https://api.thecatapi.com/v1/images/search";
 
-// 🐾 Get Cat Fact
+// Get Cat Fact
 let CatFact = document.querySelector("#CatFact");
 CatFact.addEventListener("click", async () => {
   let fact = await getCatFact();
@@ -20,7 +20,7 @@ async function getCatFact() {
   }
 }
 
-// 🐾 Get Cat Image
+//Get Cat Image
 let CatImage = document.querySelector("#CatImage");
 CatImage.addEventListener("click", async () => {
   let image = await getCatImage();
